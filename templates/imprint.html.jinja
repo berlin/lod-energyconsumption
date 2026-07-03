@@ -1,0 +1,16 @@
+{% extends 'berlin.lod.basetheme/base.html.jinja' %}
+
+{% set type_icon = 'file-earmark-text' %}
+
+{% block content %}
+    {% block description %}
+        {% set description_text = node | rdf_property_any(SCHEMA.description) %}
+        {% if description_text %}
+            <div class="row">
+                <div class="col-12">
+                    {{ description_text | markdown }}
+                </div>
+            </div>
+            {% endif %}
+    {% endblock description %}
+{% endblock content%}

@@ -1,0 +1,60 @@
+# config file for jinja-rdf
+
+# The following two settings are determined by the namespace of the data/vocab you want to serve.
+
+# The base URL of your site. If you publish via github pages, this will be something like "https://berlin.github.io"
+base_url: 'https://berlin.github.io' 
+
+# The subpath of your site. If you publish via github pages, this will most likely be the name of your repository.
+base_path: '/lod-energyconsumption'
+
+# The filepath to the data that Jinja-RDF should load. Must include _all_ data, including vocabularies, void etc.
+dataset_path: 'data/temp/all.nt'
+
+# The filepath to the base template folder
+template_path: 'templates'
+
+# The filepath to the output folder, where the generated site will be put (locally)
+output_path: '_site/'
+
+# RDF prefixes that can be used in the templates (in UPPERCASE) and in SPARQL queries (as is):
+# (should include the namespace of our data)
+# Additional prefixes will most likely be loaded through imported themes and do not need to be repeated here.
+prefixes:
+  dct: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
+  blnal: https://berlin.github.io/lod-vocabulary/blnal/
+  org: http://www.w3.org/ns/org#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  schema: https://schema.org/
+  void: http://rdfs.org/ns/void#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  enercon: https://berlin.github.io/lod-energyconsumption/
+
+# files or folders that should be copied into the generated site:
+include:
+  - assets/
+
+# a mapping from RDF classes to templates
+# values are filepaths relative to the template folder
+# (Everything not included in the mapping will use the default template.)
+class_template_mappings:
+  "void:Dataset": "berlin.lod.basetheme/dataset.html.jinja"
+  "cube:Cube": "berlin.lod.statstheme/cube.html.jinja"
+  "cube:ObservationSet": "berlin.lod.statstheme/observationset.html.jinja"
+  "cube:Observation": "berlin.lod.statstheme/observation.html.jinja"
+  "blnal:ImprintPage": "imprint.html.jinja"
+
+default_template: "berlin.lod.basetheme/default.html.jinja"
+
+# names (python package paths) of the themes (templates, assets and config) that should be included
+# the themes need to be available in the current python environment
+themes:
+  - berlin.lod.basetheme
+  - berlin.lod.statstheme
+
+# extra variables that are directly available in template as {{ version }}
+extras:
+  version: "0.1"
+

@@ -1,0 +1,53 @@
+{% extends 'berlin.lod.basetheme/base.html.jinja' %}
+
+{% set type_icon = 'eye' %}
+{% set obs_set = node | rdf_inverse_property(CUBE.observation) | first %}
+{% set cube = obs_set | rdf_inverse_property(CUBE.observationSet) | first %}
+{% set statements = node | statements_as_subject() %}
+
+{% block breadcrumbs %}
+  <div class="row breadcrumbs">
+    <div class="col-12">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="{{ resource_prefix | relative_uri }}">
+              {{ dataset_breadcrumb }}
+            </a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="{{ cube | relative_uri }}">
+              {{ cube | title_any(languages=['de']) }}
+            </a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="{{ obs_set | relative_uri }}">
+              {{ obs_set | title_any(languages=['de']) }}
+            </a>
+          </li>
+          <li class="breadcrumb-item">
+            {{ title }}
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+{% endblock breadcrumbs %}
+
+{% block info_table_content %}
+  {{ super() }}
+  {% for s, p, o in statements %}
+    {% if p != RDF.type %}
+      <tr>
+        <td>{{ helper.prefix_link(p) }}</td>
+        <td>
+          {% if o | is_iri %}
+            {{ helper.prefix_link(o) }}
+          {% else %}
+            {{ o }}
+          {% endif %}
+        </td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+{% endblock info_table_content %}

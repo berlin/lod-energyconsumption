@@ -1,0 +1,19 @@
+{% extends 'berlin.lod.basetheme/base.html.jinja' %}
+
+{% set type_icon = 'box' %}
+{% set obs_sets = node | rdf_property(CUBE.observationSet) | sort %}
+
+{% block info_table_content %}
+  {{ super() }}
+  {% for obs_set in obs_sets %}
+    <tr>
+      <td>ObservationSet</td>
+      <td>
+        <a href="{{ obs_set | relative_uri }}">
+          {% set obs_set_local_name = helper.prefix_label(obs_set) %}
+          {{ obs_set | title_any(['de', 'en'], obs_set_local_name) }}
+        </a>
+      </td>
+    </tr>
+  {% endfor %}
+{% endblock info_table_content %}

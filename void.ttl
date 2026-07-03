@@ -1,0 +1,60 @@
+@prefix blnal: <https://berlin.github.io/lod-vocabulary/blnal/> .
+@prefix cube: <https://cube.link/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix enercon: <https://berlin.github.io/lod-energyconsumption/> .
+@prefix enerprop: <https://berlin.github.io/lod-energyconsumption/properties/> .
+@prefix enerstat: <https://berlin.github.io/lod-energyconsumption/statistics/> .
+@prefix enervoc: <https://berlin.github.io/lod-energyconsumption/vocab/> .
+
+enercon:
+    a void:Dataset ;
+    dct:title "Energieverbrauch Berliner öffentlicher Gebäude"@de ;
+    # dct:title "consider adding an English title"@en ;
+    # dct:description """(German description)"""@de ;
+    # dct:description """(English description)"""@en ;
+    dct:created "2026-07-03"^^xsd:date ;
+    # dct:modified "2026-01-27"^^xsd:date ;
+    # dct:publisher <uri/of/publisher/organization> ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    foaf:homepage <https://github.com/berlin/lod-energyconsumption> ;
+    # foaf:page <link/to/webpage/with/relevant/information> ;
+    void:dataDump <https://raw.githubusercontent.com/berlin/lod-energyconsumption/main/data/target/ba-ts_verbrb-2019_2023.ttl> ;
+    void:feature <http://www.w3.org/ns/formats/Turtle> ;
+    void:rootResource enerstat:cube ;
+    void:exampleResource enerstat:os_2020-co2 ;
+    void:exampleResource enerstat:os_2022-heating ;
+    void:exampleResource enerprop:annedore-leber-grundschule ;
+    # one or more vocabularies that are used in the actual data (not just here in the void file)
+    void:vocabulary enervoc: , cube: ;
+    prov:wasGeneratedBy enercon:triplification ;
+    # dct:hasVersion <https://berlinonline.github.io/lod-berlin-lor-2019/> ;
+    blnal:changelog <https://github.com/berlin/lod-energyconsumption/blob/main/CHANGELOG.md> ;
+.
+
+enercon:triplification
+    a prov:Activity ;
+    rdfs:label "Triplifizierung"@de ;
+    rdfs:comment "Die Konvertierung des Quelldatensatzes nach RDF"@de ;
+    # prov:used <one/or/more/source/datasets> ;
+.
+
+enercon:impressum
+    a blnal:ImprintPage ;
+    schema:name "Impressum"@de ;
+    schema:name "Imprint"@en ;
+    schema:description """
+Hier sollte der Text des Impressums stehen.
+
+Man kann **Markdown** verwenden.
+
+Auch [Links](https://berlin.de) sollten funktionieren."""@de ;
+    schema:about enercon: ;
+.

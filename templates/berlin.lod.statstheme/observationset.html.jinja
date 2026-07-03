@@ -1,0 +1,44 @@
+{% extends 'berlin.lod.basetheme/base.html.jinja' %}
+
+{% set type_icon = 'grid-3x3-gap-fill' %}
+{% set cube = node | rdf_inverse_property(CUBE.observationSet) | first %}
+{% set observations = node | rdf_property(CUBE.observation) | sort %}
+
+{% block breadcrumbs %}
+  <div class="row breadcrumbs">
+    <div class="col-12">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="{{ resource_prefix | relative_uri }}">
+              {{ dataset_breadcrumb }}
+            </a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="{{ cube | relative_uri }}">
+              {{ cube | title_any(languages=['de']) }}
+            </a>
+          </li>
+          <li class="breadcrumb-item">
+            {{ title }}
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+{% endblock breadcrumbs %}
+
+{% block info_table_content %}
+  {{ super() }}
+  {% for obs in observations %}
+    <tr>
+      <td>Observation</td>
+      <td>
+        <a href="{{ obs | relative_uri }}">
+          {% set obs_local_name = helper.prefix_label(obs) %}
+          {{ obs | title_any(['de', 'en'], obs_local_name) }}
+        </a>
+      </td>
+    </tr>
+  {% endfor %}
+{% endblock info_table_content %}
