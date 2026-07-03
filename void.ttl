@@ -17,9 +17,13 @@
 enercon:
     a void:Dataset ;
     dct:title "Energieverbrauch Berliner öffentlicher Gebäude"@de ;
-    # dct:title "consider adding an English title"@en ;
-    # dct:description """(German description)"""@de ;
-    # dct:description """(English description)"""@en ;
+    dct:title "Energy consumption of public properties in Berlin"@en ;
+    dct:description """RDF Daten zum Energieverbrauch öffentlicher Gebäude in Berlin.
+    Die statistischen Daten sind mit dem [Cube-Vokabular](https://cube.link) modelliert.
+    Aktuell sind nur Daten aus dem Bezirk Tempelhof-Schöneberg von 2019–2023 enthalten."""@de ;
+    dct:description """RDF data about energy consumption of public properties in Berlin.
+    Statistical data has been modelled using the [Cube vocabulary](https://cube.link).
+    Currently only data from the district of Tempelhof-Schöneberg from 2019–2023 are included."""@en ;
     dct:created "2026-07-03"^^xsd:date ;
     # dct:modified "2026-01-27"^^xsd:date ;
     # dct:publisher <uri/of/publisher/organization> ;
@@ -35,7 +39,6 @@ enercon:
     # one or more vocabularies that are used in the actual data (not just here in the void file)
     void:vocabulary enervoc: , cube: ;
     prov:wasGeneratedBy enercon:triplification ;
-    # dct:hasVersion <https://berlinonline.github.io/lod-berlin-lor-2019/> ;
     blnal:changelog <https://github.com/berlin/lod-energyconsumption/blob/main/CHANGELOG.md> ;
 .
 
