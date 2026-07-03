@@ -1,4 +1,4 @@
-# Energieverbrauch Berliner öffentlicher Gebäude
+# Energy Consumption of Public Properties in Berlin
 
 This repository contains RDF data and a static site including all URIs in the data within the `https://berlin.github.io/lod-energyconsumption` namespace.
 
