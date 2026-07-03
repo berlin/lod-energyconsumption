@@ -20,7 +20,7 @@ data/temp/blnal.ttl: data/temp
 # If you want to have access to vocabulary labels etc., you also need to include those 
 # vocablaries here.
 # The target works by merging all prerequisites 
-data/temp/all.nt: data/temp void.ttl data/target/ba-ts_verbrb-2019_2023.ttl
+data/temp/all.nt: data/temp void.ttl data/target/ba-ts_verbrb-2019_2023.ttl data/vocab/enervoc.ttl
 	@echo "combining $(filter-out $<,$^) to $@ ..."
 	@rdfpipe -o ntriples $(filter-out $<,$^) > $@
 
