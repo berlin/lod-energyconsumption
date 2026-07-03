@@ -3,3 +3,6 @@ venv/
 .vscode/
 data/temp
 _site/
+assets/berlin.lod.*
+config/berlin.lod.*
+templates/berlin.lod.*
