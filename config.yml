@@ -31,6 +31,9 @@ prefixes:
   void: http://rdfs.org/ns/void#
   xsd: http://www.w3.org/2001/XMLSchema#
   enercon: https://berlin.github.io/lod-energyconsumption/
+  enerprop: https://berlin.github.io/lod-energyconsumption/properties/
+  enerstat: https://berlin.github.io/lod-energyconsumption/statistics/
+  enervoc: https://berlin.github.io/lod-energyconsumption/vocab/
 
 # files or folders that should be copied into the generated site:
 include:
