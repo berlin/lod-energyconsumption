@@ -1,0 +1,27 @@
+digraph structs {
+  rankdir="BT"
+  graph [bgcolor=transparent]
+  node[shape=record]
+  label_01 [label="Annedore-Leber-Grundschule"];
+  comment_01 [label="{Wärme-Mitversorgung der Grimmstr. 9-11}"];
+  floor_area [label="7043"];
+  label_02 [label="Gas"];
+  location  [label="Berlin"];
+  zip_code [label="12304"];
+  street [label="Halker Zeile 137-149"];
+
+  node[shape=circle]
+  annedore_leber_grundschule [label="annedore-leber-grundschule"];
+  gas [label="gas"];
+  address [label=""];
+
+  annedore_leber_grundschule -> label_01
+  annedore_leber_grundschule -> gas
+  annedore_leber_grundschule -> comment_01
+  annedore_leber_grundschule -> floor_area
+  annedore_leber_grundschule -> address
+  address -> location
+  address -> zip_code
+  address -> street
+  gas -> label_02
+}

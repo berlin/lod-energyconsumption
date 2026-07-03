@@ -1,0 +1,12 @@
+@base <file:///Users/kmoeller/Projekte/datasets/lod-berlin/lod-berlin-verbrauch/data/target/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ex: <http://example.org/> .
+
+ex:FloorAreaCardinalityShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf <floor_area> ;
+    sh:property [
+        sh:path <floor_area> ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .

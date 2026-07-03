@@ -1,0 +1,145 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix swformats: <https://www.w3.org/ns/formats/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix blnal: <https://berlin.github.io/lod-vocabulary/blnal/> .
+@prefix wikidata: <https://www.wikidata.org/wiki/> .
+
+@prefix enervoc: <https://berlin.github.io/lod-energyconsumption/vocab/> .
+
+enervoc: a owl:Ontology ;
+    rdfs:label "EnerVoc – Energieverbrauchsvokabular"@de ;
+    rdfs:comment """Sammlung von Properties und Klassen zur Modellierung von Energieverbrauchsdaten im Land Berlin"""@de ;
+    void:feature swformats:Turtle ;
+    dcterms:created "2026-06-23"^^xsd:date ;
+    dcterms:modified "2026-06-23"^^xsd:date ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    owl:versionInfo "0.0.1" ;
+    blnal:changelog <https://github.com/berlin/lod-energyconsumption/blob/main/data/vocab/CHANGELOG.md> ;
+    void:dataDump <https://raw.githubusercontent.com/berlin/lod-energyconsumption/main/data/vocab/enervoc.ttl> ;
+.
+
+# Classes
+
+enervoc:HeatingType a owl:Class ;
+    rdfs:label "Heating Type"@en ;
+    rdfs:label "Art der Wärmeversorgung"@de ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+enervoc:Property a owl:Class ;
+    rdfs:label "Property"@en ;
+    rdfs:label "Liegenschaft"@de ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+# Properties
+
+enervoc:hasFloorArea a owl:DatatypeProperty ;
+    rdfs:label "Floor area"@en ;
+    rdfs:label "Netto-Raumfläche"@de ;
+    rdfs:comment """The sum of all usable areas of a building, according to the 
+    definition of the "Netto-Raumfläche" (NRF) in DIN 277:2016. Values in square metres."""@en ;
+    rdfs:comment """Die NRF ist die Summe der nutzbaren Grundflächen eines Gebäudes 
+    nach DIN 277:2016. Die Angabe erfolgt in Quadratmetern."""@de ;
+    rdfs:seeAlso wikidata:Q5460163 ;
+    rdfs:domain enervoc:Property ;
+    rdfs:range xsd:integer ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+enervoc:hasHeatingType a owl:ObjectProperty ;
+    rdfs:label "Heating type"@en ;
+    rdfs:label "Art der Wärmeversorgung"@de ;
+    rdfs:domain enervoc:Property ;
+    rdfs:range enervoc:HeatingType ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+# Dimensions (Properties for statistical observations)
+
+enervoc:powerConsumption a owl:DatatypeProperty ;
+    rdfs:label "Power consumption"@en ;
+    rdfs:label "Stromverbrauch"@de ;
+    rdfs:comment "Power consumption in kWh/a"@en ;
+    rdfs:comment "Stromverbrauch in kWh/a"@de ;
+    rdfs:domain cube:Observation ;
+    rdfs:range xsd:integer ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+enervoc:heatingConsumption a owl:DatatypeProperty ;
+    rdfs:label "Heating consumption"@en ;
+    rdfs:label "Verbauch Wärme"@de ;
+    rdfs:comment "Heating consumption in kWh/a"@en ;
+    rdfs:comment "Energieverbrauch Wärme in kWh/a"@de ;
+    rdfs:domain cube:Observation ;
+    rdfs:range xsd:integer ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+enervoc:co2Emission a owl:DatatypeProperty ;
+    rdfs:label "CO2 emissions"@en ;
+    rdfs:label "CO2-Emissionen"@de ;
+    rdfs:comment "CO2 emissions in t/a"@en ;
+    rdfs:comment "CO2-Emissionen in t/a"@de ;
+    rdfs:domain cube:Observation ;
+    rdfs:range xsd:integer ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+enervoc:property a owl:ObjectProperty ;
+    rdfs:label "Property / Building"@en ;
+    rdfs:label "Liegenschaft / Gebäude"@de ;
+    rdfs:domain cube:Observation ;
+    rdfs:range enervoc:Property ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+# Instances
+
+enervoc:gasHeating a enervoc:HeatingType ;
+    rdfs:label "Gas heating"@en ;
+    rdfs:label "Gasheizung"@de ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+enervoc:oilHeating a enervoc:HeatingType ;
+    rdfs:label "Oil heating"@en ;
+    rdfs:label "Ölheizung"@de ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+enervoc:districtHeating a enervoc:HeatingType ;
+    rdfs:label "District heating"@en ;
+    rdfs:label "Fernwärme"@de ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+enervoc:localHeating a enervoc:HeatingType ;
+    rdfs:label "Local heating"@en ;
+    rdfs:label "Nahwärme"@de ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+enervoc:storageHeating a enervoc:HeatingType ;
+    rdfs:label "Storage heating"@en ;
+    rdfs:label "Speicherheizung"@de ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+enervoc:heatPump a enervoc:HeatingType ;
+    rdfs:label "Heat pump"@en ;
+    rdfs:label "Wärmepumpe"@de ;
+    rdfs:isDefinedBy enervoc: ;
+.
+
+enervoc:directHeater a enervoc:HeatingType ;
+    rdfs:label "Direct heater"@en ;
+    rdfs:label "Direktheizung"@de ;
+    rdfs:comment "Eine Stromheizung ohne Speicher"@de ;
+    rdfs:isDefinedBy enervoc: ;
+.
+

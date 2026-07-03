@@ -1,0 +1,127 @@
+lfd. Nr.,Liegenschaft,"Strasse, Haus-Nr.",PLZ,Ort,Art der Wärmeversorgung,NRF Summe Gebäude,Verbrauch Wärme (witterungsbereinigt)  2019 [kWh/a],Verbrauch Wärme (witterungsbereinigt)  2020 [kWh/a],Verbrauch Wärme (witterungsbereinigt)  2021 [kWh/a],Verbrauch Wärme (witterungsbereinigt)  2022 [kWh/a],Verbrauch Wärme (witterungsbereinigt)  2023 [kWh/a],Strom 2019 [kWh/a],Strom 2020 [kWh/a],Strom 2021 [kWh/a],Strom 2022 [kWh/a],Strom 2023 [kWh/a],CO2-Emissionen (Gesamt) 2019 [t/a],CO2-Emissionen (Gesamt) 2020 [t/a],CO2-Emissionen (Gesamt) 2021 [t/a],CO2-Emissionen (Gesamt) 2022 [t/a],CO2-Emissionen (Gesamt) 2023 [t/a],Bemerkungen
+1,Seniorendomizil Am Alboinplatz,Alboinplatz 17-18,12105,Berlin,Ölheizung,2389,398356,422307,434067,470197,522445,15298,13176,13463,13140,16860,112,117,121,131,146,keine
+2,Jugendcafé am Dorfteich,Alt-Lichtenrade 103,12309,Berlin,Gas,241,50717,46813,46130,46783,52138,5220,4382,5034,5279,5129,11,10,12,11,12,keine
+3,"Seniorenwohnhaus ""Rudolf-Wissell-Haus""",Alt-Mariendorf 24-26,12107,Berlin,Gas,5586,613616,625616,647817,616109,585304,40911,38254,36942,39568,37117,130,128,149,132,121,keine
+4,Tempelhof-Museum - Musikschule,Alt-Mariendorf 43,12107,Berlin,Gas,1412,119017,137938,134966,129999,128360,16046,12174,12067,12583,11895,28,29,33,30,28,keine
+5,Solling-Schule,Alt-Marienfelde 52,12277,Berlin,Gas,8591,1211097,1142338,1488240,1284322,1220669,151440,132511,136098,131520,131858,285,255,361,296,276,keine
+6,Schule am Berlinickeplatz,Alt-Tempelhof 53-57,12103,Berlin,Gas,6940,712691,928665,737629,765615,401004,75952,59235,63590,72365,56846,162,190,178,174,96,keine
+7,Carl-Sonnenschein-Grundschule,Am Hellespont 4-6,12109,Berlin,Gas,5747,579201,754742,650901,582108,535457,102150,92400,70900,72474,73056,148,170,162,139,127,keine
+8,Seniorenfreizeitstätte Am Mühlberg,Am Mühlenberg 12,10825,Berlin,Gas,234,58222,43297,48978,44365,45607,5633,4394,4802,6316,6175,13,9,12,11,11,keine
+9,Sportanlage Marienfelde,An der Dorfkirche 9,12277,Berlin,Gas,223,99830,53529,74064,80815,83020,58000,43300,50150,62865,53278,41,25,35,41,37,keine
+10,Thomas-Dehler-Bibliothek,Apostel-Paulus-Str. 10,10823,Berlin,Gas,2332,0,0,0,0,0,5337,2850,3406,3627,4238,2,1,1,2,2,Gasversorgung über Martin-Luther-Straße 77
+11,Grundschule am Barbarossaplatz - Albert-Einstein-Volkshochschule,Barbarossaplatz 5,10781,Berlin,Gas,8478,856861,1010097,969785,1028846,889459,153947,141647,135792,143586,146368,220,234,254,253,222,keine
+12,Gemeinschaftshaus Lichtenrade,Barnetstr. 11,12305,Berlin,Gas,7232,587877,489025,577528,631700,576981,159144,270672,231060,197063,114129,172,184,209,200,152,keine
+13,Sporthalle Baußnernweg,Baußnernweg 8,12279,Berlin,Gas,0,0,0,0,0,0,1668,2111,2067,6630,2805,1,1,1,3,1,keine
+14,Grundschule auf dem Tempelhofer Feld,Bayernring 38,12101,Berlin,Strom (WP),957,0,0,0,0,0,14198,19470,21294,35263,20454,6,7,8,15,8,keine
+15,Gustav-Langenscheidt-Schule,Belziger Str. 43-51,10823,Berlin,Fernwärme,7987,246,120,84,177,803,0,0,0,0,0,0,0,0,0,0,Wärmeversorgung und Stromversorgung über Hauptstr. 40
+16,Löcknitz-Grundschule,Berchtesgadener Str. 10-11,10779,Berlin,Gas,5078,440556,502393,559809,562616,464513,84931,72394,73957,85183,100216,115,117,145,141,126,keine
+17,"Seniorenfreizeitstätte ""Mireille Mathieu""",Boelckestr. 102,12101,Berlin,Gas,405,73030,50758,47765,61527,57351,0,0,0,0,0,14,9,10,12,10,Stromversorgung über Boelckestraße 100 (Kinder- und Jugendhilfe gGmbH)
+18,Tempelherren-Grundschule - Hugo-Gaudig-Schule,Boelckestr. 58-60,12101,Berlin,Gas,13013,838923,890179,1169183,1013138,936352,190308,178761,192570,187718,190882,231,225,317,268,249,keine
+19,Friedrich-Ebert-Stadion,Bosestr. 21,12103,Berlin,Gas,400,323967,297051,300952,283982,285983,115603,81776,75853,99429,96870,105,83,92,95,92,keine
+20,Ulrich-von-Hutten-Oberschule,Briesingstr. 23,12307,Berlin,Gas,2337,440356,291847,321196,399852,417342,68100,49800,49400,57140,56518,109,71,86,99,99,keine
+21,Bürgeramt Lichtenrade,Briesingstr. 6,12307,Berlin,keine Angabe,3170,0,0,0,0,0,51500,51250,29350,12785,35100,20,18,11,5,15,keine
+22,"Betreuungsraum (""Die Falken"")",Bülowstr. 39,10783,Berlin,Gas,0,70,72,63,153,87,779,545,634,1133,828,0,0,0,0,0,keine
+23,Grundschule am Dielingsgrund,Dielingsgrund 35,12305,Berlin,Gas,5368,743349,780594,706355,685852,749721,110695,84960,97521,106806,102609,182,172,184,173,178,keine
+24,Dienstgebäude Domagkstraße,Domagkstr. 3/5,12277,Berlin,Gas,704,118464,130225,126947,99832,122675,9373,7428,7161,7833,5988,26,26,29,22,25,keine
+25,Werkhof,Domnauer Str. 41,12105,Berlin,Gas,2534,612291,617695,482859,436653,532071,41617,33496,39931,38344,36771,130,125,116,98,112,keine
+26,Sophie-Scholl-Schule,Elßholzstr. 34-37,10782,Berlin,Gas,15582,1371204,1557991,1608024,1619174,1950516,328038,299653,232825,292711,230137,383,389,424,426,449,keine
+27,Marienfelder Schule,Erbendorfer Weg 13,12279,Berlin,Gas,6918,603381,649789,303333,394101,361964,38908,50573,101087,99877,98068,128,136,102,115,106,keine
+28,Hort Marienfelder Schule,Erbendorfer Weg 15,12279,Berlin,Gas,1037,129203,166801,127012,139317,133222,16808,22231,18930,21138,16058,31,38,34,35,31,keine
+29,Paul-Simmel-Grundschule,Felixstr. 26-58,12099,Berlin,Gas,7120,1074683,731757,852478,865705,990208,147918,150322,158250,179549,176203,258,186,238,237,252,keine
+30,Teltow-Grundschule,Feurigstr. 57,10827,Berlin,Gas,9416,835662,961171,1376569,421363,1057529,130980,100690,102810,106890,100171,207,211,325,124,233,keine
+31,Rudolf-Hildebrand-Grundschule,Friedenstr. 23-25,12107,Berlin,Gas,7456,833757,920763,767757,764116,708136,82221,66538,68424,77637,77002,187,191,186,176,160,keine
+32,Maria-Montessori-Grundschule,Friedrich-Wilhelm-Str. 72-74,12103,Berlin,Gas,5501,317456,422078,399713,410696,409295,67988,60792,62373,66261,63231,86,98,107,105,100,keine
+33,Werkhof / Baumkolonne,Fritz-Werner-Str. 71,12107,Berlin,Gas,2966,493778,547438,525010,532520,561468,39850,36300,36950,29467,28573,107,113,123,112,114,keine
+34,Finow-Grundschule,Geisbergstr. 3-5,10777,Berlin,Fernwärme,2257,526023,447371,450512,567936,429298,0,0,0,0,0,113,94,109,126,92,keine
+35,Luise-Henriette-Oberschule,Germaniastr. 4-6,12099,Berlin,Gas,10773,800673,604446,362353,443829,374098,24451,6346,6234,6682,4864,159,113,78,86,70,keine
+36,Interkulturelles Haus,Geßlerstr. 11,10829,Berlin,Gas,749,179626,159755,186224,151404,139145,10289,8319,11453,11061,9336,37,32,43,33,29,keine
+37,Paul-Natorp-Gymnasium,Goßlerstr. 13-15,12161,Berlin,Fernwärme,0,597841,622191,749612,750633,123,110550,38270,6348,93888,89583,172,145,183,206,37,keine
+38,Tempelhofer Forum (Jugendfreizeiteinrichtung),Gottlieb-Dunkel-Str. 26,12099,Berlin,Gas,522,2177,0,0,0,0,8758,3379,0,0,0,4,1,0,0,0,keine
+39,Sportanlage Götzstr. 34,Götzstr. 34,12099,Berlin,Gas,1220,229870,209398,219708,255326,202282,37800,26700,21800,21684,20253,58,48,54,57,45,keine
+40,Bezirkszentralbibliothek im Eva-Maria-Buch-Haus,Götzstr. 8-12,12099,Berlin,Nahwärme,3801,0,0,0,0,0,194306,147809,160135,174389,185327,76,51,62,72,77,Wärmeversorgung über Götzstr. 6 (Polizei Direktion)
+41,Theodor-Haubach-Schule,Grimmstr. 9-11,12305,Berlin,Gas,6447,7667,8160,28373,0,8170,86650,75150,70400,69784,99153,35,28,33,29,43,Wärmeversorgung über Halker Zeile 137-149
+42,Leo Kestenberg Musikschule,Grunewaldstr. 6-7,10823,Berlin,Gas,2283,393308,418604,235856,201876,237240,40678,33684,37104,40174,34562,89,88,63,55,57,Wärmeversorgung einer nahegelegenen Kita
+43,Annedore-Leber-Grundschule,Halker Zeile 137-149,12305,Berlin,Gas,7043,1400482,1388976,1753873,1692662,910748,112879,101703,111002,117498,119054,305,289,406,367,214,Wärme-Mitversorgung der Grimmstr. 9-11
+44,Sportanlage Lichtenrade,Halker Zeile 151,12305,Berlin,Gas,339,93193,114631,68200,62728,62127,46000,35500,32450,48410,51564,35,33,27,32,33,keine
+45,Theodor-Heuß-Bibliothek,Hauptstr. 40,10827,Berlin,Fernwärme,2352,1350831,1283806,1373685,1364796,1289765,190954,163284,163008,186917,183716,365,328,395,381,353,Wärme-Mitversorgung u. Strom-Mitversorgung d. Hauptstr. 40-42 u. d. Belziger Str. 43-51
+46,Jugendfreizeitheim Hessenring,Hessenring 47,12101,Berlin,Gas,1004,73626,87234,88027,78541,93821,13044,8913,8025,9427,9842,19,19,21,19,21,keine
+47,Georg-von-Giesche-Schule,Hohenstaufenstr. 47/48,10779,Berlin,Gas,9574,2789909,2906466,2561473,2647559,2536228,141519,82645,75285,144432,101398,575,560,560,557,501,Wärme-Mitversorgung u. Strom-Mitversorgung d. Hohenstaufenstr. 49
+48,Seniorenfreizeitstätte Berliner Bär,Holzmannstr. 18,12099,Berlin,Gas,366,50407,58612,55374,58779,60905,12349,8099,7133,6867,6462,14,14,14,14,14,keine
+49,Marianne-Cohn-Schule,Holzmannstr. 7,12099,Berlin,Gas,5254,1356261,1029101,1003495,932667,952372,346413,324014,289021,200064,138601,388,301,320,258,230,keine
+50,Fläming-Grundschule,Illstr. 4-6,12161,Berlin,Gas,7961,505864,769401,861776,812296,659618,94100,77370,86550,104471,91832,131,168,212,196,158,keine
+51,Rathaus Schöneberg,John-F.-Kennedy-Platz,10825,Berlin,Fernwärme,45497,4117759,4124548,4688357,4136534,3678691,1475500,1407198,1540380,1512383,1450634,1460,1359,1728,1547,1390,keine
+52,Askanische Oberschule,Kaiserin-Augusta-Str. 19-20,12103,Berlin,Gas,9439,777717,926508,836219,900725,806363,99661,86920,87097,92782,95357,184,200,207,208,186,keine
+53,Dienstgebäude Kaiserstraße,Kaiserstr. 126,12105,Berlin,Gas,528,965354,934922,1002163,953023,1051884,0,0,0,0,0,180,171,208,179,190,"Wärme-Mitversorgung d. Rathausstr. 27 u. d. Königstr. 15, Stromversorgung über Rathausstr. 27"
+54,Eckener-Oberschule,Kaiserstr. 17-21,12105,Berlin,Gas,8056,575571,1005084,825325,857372,1055769,155714,132699,121947,159685,158095,168,230,218,227,257,keine
+55,Robert-Blum-Oberschule,Kolonnenstr. 21,10829,Berlin,Gas,12372,974400,1133503,1232513,1161945,971436,107891,97090,103645,111858,110096,224,241,296,265,222,keine
+56,Havelland-Grundschule,Kolonnenstr. 30-30 a,10829,Berlin,Gas,7526,654511,652664,876921,816667,656753,147689,131353,134424,142736,140390,180,165,234,213,177,keine
+57,Mascha-Kaléko-Grundschule,Königstr. 32,12105,Berlin,Gas,5265,346568,510090,488306,509677,546470,95446,69815,55779,69021,77188,102,118,123,124,131,keine
+58,Paul-Klee-Grundschule,Konradinstr. 15-17,12105,Berlin,Gas,8775,1057801,1088251,1373923,1182286,1121948,173439,160191,143359,126789,118118,265,255,340,275,252,keine
+59,Sportanlage Körtingstraße,Körtingstr. 41,12107,Berlin,Nahwärme,461,0,0,0,0,0,33360,28520,23000,21236,27837,13,10,9,9,12,Wärmeversorgung über Körtingstr. 45
+60,Ikarus-Grundschule,Körtingstr. 45,12107,Berlin,Gas,6328,1088048,1264237,1285389,1353202,1327982,113840,85453,87353,99614,108038,247,261,300,296,285,Wärme-Mitversorgung d. Körtingstr. 41 und einer nahegelegenen Kita
+61,Jugendfreizeiteinrichtung Kurfürstenstraße,Kurfürstenstr. 40-42,12105,Berlin,Gas,669,1798,25746,3724,46880,41861,22983,15402,679,8743,8382,9,10,1,12,11,keine
+62,Luise-Henriette-Oberschule,Kurfürstenstr. 53-54,12105,Berlin,Gas,5659,958176,1137246,1075223,992678,1045307,59183,89164,64757,69432,74996,201,239,248,215,220,keine
+63,Familienfürsorge,Kurmärkische Str. 1-3,10783,Berlin,Gas,962,121172,127631,120562,160983,152335,12178,10095,7285,9473,10211,27,27,28,34,32,keine
+64,Sportanlage Laubacher Straße,Laubacher Str. 27,14197,Berlin,Gas,186,24007,25918,22537,21109,21218,16861,17307,12497,17323,13733,11,11,10,11,10,keine
+65,Georg-Büchner-Oberschule,Lichtenrader Damm 224-230,12305,Berlin,Gas,7770,1439945,1239123,1437686,1479455,1208020,147514,132343,116327,127336,122370,326,272,343,331,270,keine
+66,Jugendfreizeiteinrichtung Lortzingstraße,Lortzingstr. 16,12307,Berlin,Ölheizung,517,94773,84018,92491,80880,82610,7780,6398,5635,6738,6181,28,25,27,24,25,keine
+67,Werbellinsee-Grundschule,Luitpoldstr. 38,10781,Berlin,Gas,9388,542286,521213,549803,537946,442605,228363,171145,154416,153490,154264,190,155,174,165,144,keine
+68,Hort Annedore-Leber-Grundschule,Lutherstr. 18,12305,Berlin,Gas,1584,190268,185088,189140,190492,206342,9322,8675,8638,8181,8207,39,37,43,39,41,keine
+69,Deutsch-Skandinavische Gemeinschaftsschule - Sporthalle,Machonstr. 52,12105,Berlin,Gas,2568,120255,115643,99838,99692,114259,8899,8133,6486,9356,8897,26,24,23,23,24,keine
+70,Dienstgebäude Manteuffelstraße,Manteuffelstr. 63,12103,Berlin,Gas,617,172690,191714,163461,152204,167376,19082,21316,19246,18419,18499,40,42,41,36,38,keine
+71,Hort Rudolf-Hildebrand-Grundschule,Marconistr. 4,12107,Berlin,Ölheizung,,109542,115802,138619,97672,94847,0,0,0,0,0,29,31,37,26,25,keine
+71,Jugendfreizeiteinrichtung Mariendorfer Damm,Mariendorfer Damm 117-125,12109,Berlin,Speicherheizung,0,105109,122695,118893,118413,110496,12162,7558,6867,7549,7541,24,25,27,25,23,keine
+72,Seniorenfreizeitstätte Eduard Bernoth Haus,Marienfelder Allee 104,12277,Berlin,Gas,355,46538,42326,53477,44945,42653,12462,5038,6275,7023,7193,14,9,14,11,11,keine
+73,Stadtteilbibliothek Marienfelde und Jugendfreizeiteinrichtung,Marienfelder Allee 107-109,12277,Berlin,Gas,1384,160123,131579,235376,184920,182816,16975,9655,15394,15263,17355,36,27,55,41,40,keine
+74,Seniorenfreizeitsstätte Sorgenfrei,Markgrafenstr. 10,12105,Berlin,Gas,250,63628,53796,62850,56415,54389,7173,4200,3732,3489,6409,15,11,14,12,13,keine
+75,Sportanlage Markgrafenstraße,Markgrafenstr. 19-24,12105,Berlin,Gas,827,263250,320751,335063,307540,256116,63275,28536,24988,31653,28725,74,69,79,71,58,keine
+76,Jugendkunstschule JUKS,Martin-Luther-Str. 46,10779,Berlin,Gas,0,0,0,0,0,0,5829,2669,5064,6806,5843,2,1,2,3,2,keine
+77,DIE WEISSE ROSE - Kulturcentrum am Wartburgplatz,Martin-Luther-Str. 77,10825,Berlin,Gas,0,346101,338980,276646,373630,284151,52400,43650,43100,58863,50008,85,77,74,95,72,Gas-Mitversorgung der Apostel-Paulus-Str. 10
+78,Käthe-Kollwitz-Grundschule,Mellener Str. 38-42,12307,Berlin,Gas,4798,36,6015,11,0,0,0,0,0,0,0,0,1,0,0,0,Wärmeversorgung und Stromversorgung über Rehagener Str. 35-37
+79,Rückert-Oberschule / Sternberg-Grundschule,Mettestr. 8,10825,Berlin,Fernwärme,16411,1081852,1172608,1214370,1052668,1096299,156600,138033,133843,150172,150021,294,295,345,296,297,keine
+80,Sportplatz Monumentenstraße,Monumentenstr. 13 c,10829,Berlin,Gas,618,116462,101936,97096,101667,88646,20037,17735,13583,16990,17773,30,25,25,26,23,keine
+81,Robert-Blum-Oberschule,Monumentenstr. 13 d,10829,Berlin,Gas,1330,84689,93557,131029,87162,72987,46879,29106,29258,40053,39543,34,27,39,33,30,keine
+82,Nahariya-Grundschule,Nahariyastr. 13-17,12309,Berlin,Gas,8109,1365196,875301,683330,1046257,997392,230588,196793,191158,198701,185272,344,228,216,279,257,keine
+83,VHS-Kolleg Schöneberg,Nürnberger Str. 63,10787,Berlin,Fernwärme,5021,336574,408520,436678,415475,349392,103600,79750,73600,79440,87600,113,114,134,125,111,keine
+84,Ruppin Grundschule,Offenbacher Str. 5 a,14197,Berlin,Gas,10241,1105431,1142316,1040929,1170063,752607,150142,130389,139428,141440,134979,264,254,270,278,192,keine
+85,Friedenauer Gemeinschaftsschule,Otzenstr. 16-17,12159,Berlin,Fernwärme,5862,567571,538118,577587,556838,439731,60342,52158,38330,36217,82542,145,131,154,138,128,keine
+86,Spreewald-Grundschule,Pallasstr. 15,10781,Berlin,Nahwärme,12571,871422,953313,995996,898019,871461,179667,177675,188041,209407,198038,272,283,306,301,290,keine
+87,Sophie-Scholl-Schule,Pallasstr. 34,10781,Berlin,Gas,3565,376543,451978,383991,519367,501161,0,0,0,0,0,70,83,80,98,91,keine
+88,Friedrich-Bergius-Schule,Perelsplatz 6-9,12159,Berlin,Gas,5873,617698,573987,732579,638097,505932,52500,48850,45800,51580,44691,135,122,170,141,110,keine
+89,Prignitz-Schule,Pöppelmannstr. 2,12157,Berlin,Gas,6119,31212,21174,23156,18258,22648,267804,231484,226953,239399,231357,111,84,93,103,100,"Wärmeversorgung über Rubensstr. 63, Strom-Mitvers. v. Grazer Platz 1-3 und Rubensstr. 63"
+90,Jugend- und Kulturhaus/Drugstore und Potse,Potsdamer Str. 180,10783,Berlin,keine Angabe,0,0,0,0,0,0,26476,16711,4626,1729,2151,10,6,2,1,1,keine
+91,Kiepert-Grundschule,Prechtlstr. 21-23,12277,Berlin,"Gas, Ölheizung",5814,741646,673286,697348,691132,635376,87650,79700,79600,75198,70530,172,151,175,161,144,keine
+92,Sporthalle Schöneberg,Priesterweg 2-4,10829,Berlin,Gas,5091,285908,305588,243652,272367,326289,1019114,940153,1036092,999055,993113,452,383,452,466,471,keine
+93,Sportanlage im Volkspark Mariendorf,Prühßstr. 90,12109,Berlin,Gas,3083,12664,8776,8918,6034,5910,11690,9763,9002,11472,12000,7,5,5,6,6,keine
+94,Bruno-H.-Bürgel-Grundschule,Rackebüller Weg 70,12305,Berlin,Gas,7111,741401,1037331,851609,907613,925621,86616,76534,75172,87444,73826,172,216,206,207,198,keine
+95,Sportanlage Rathausstraße,Rathausstr. 10 a,12105,Berlin,Gas,817,274912,217428,231395,255607,273030,47133,35352,30199,32268,32377,70,52,60,61,63,keine
+96,Gesundheitsamt,Rathausstr. 27,12105,Berlin,Gas,6588,0,0,0,0,0,177567,197458,175376,151328,132141,69,69,68,63,55,"Wärmeversorgung über Kaiserstr. 126, Strom-Mitversorgung  d. Kaiserstr. 126 u. d. Königstr. 15"
+97,Lindenhof-Grundschule,Reglinstr. 29,12105,Berlin,Gas,2950,330361,271636,378410,420757,370361,45036,35277,35990,38328,36993,79,62,92,95,82,keine
+98,Ulrich-von-Hutten-Oberschule,Rehagener Str. 35-37,12307,Berlin,Gas,8332,1202031,1043395,866944,1148067,965972,216020,195124,202214,214954,207806,308,259,258,305,261,"Wärme-Mitvers. von Mellener Str. 38-42, Strom-Mitvers. von Mellener Str. 38-42 u. Rehag. Str. 42-44"
+99,Käthe-Kollwitz-Grundschule,Rehagener Str. 42-44,12307,Berlin,Gas,889,196113,243592,223904,227965,234252,0,0,0,0,0,36,45,46,43,42,Stromversorgung über Rehagener Str. 35-37
+100,Heidefriedhof Tempelhof,Reißeckstr. 14,12107,Berlin,Ölheizung,2244,326563,356909,334767,362263,384833,68254,57187,53339,58500,54457,114,115,110,121,125,keine
+101,Stechlinsee-Grundschule,Rheingaustr. 7,12161,Berlin,Fernwärme,6766,541534,604209,654927,659155,507784,67374,71176,62627,70900,67566,143,152,182,176,137,keine
+102,Johanna-Eck-Schule,Ringstr. 103-106,12105,Berlin,Gas,9224,886618,964996,1491898,1066286,822968,170918,129319,134355,172548,177261,232,221,361,272,223,keine
+103,Friedenauer Gemeinschaftsschule,Rubensstr. 63,12157,Berlin,Fernwärme,7407,1945086,2031714,2232309,2065220,1862824,253,199,226,795,464,418,429,539,460,400,"Wärme-Mitvers. v. Grazer Platz 1-3 und Pöppelmannstr. 2, Stromvers. über Pöppelmannstr. 2"
+104,Jugendverkehrsschule Sachsendamm,Sachsendamm 25,10829,Berlin,Stromheizung (kein Speicher),191,0,0,0,0,0,31934,24260,51054,39248,36390,12,8,20,16,15,keine
+105,Gartenarbeitsschule Sachsendamm,Sachsendamm 31-34,10829,Berlin,Ölheizung,150,162743,161266,174289,180720,140300,12567,15915,14394,13830,13137,48,48,52,54,43,keine
+106,Die BURG,Schmargendorfer Str. 18,12159,Berlin,Nahwärme,1355,0,0,0,0,0,11988,10054,9637,11482,10735,5,3,4,5,4,keine
+107,Grundschule auf dem Tempelhofer Feld,Schulenburgring 7-11,12101,Berlin,Gas,4548,881863,1058339,1044263,1026358,897666,105800,93650,97300,100305,93690,205,226,254,234,201,Wärmeversorgung einer nahegelegenen Kita
+108,Rheingau-Oberschule,Schwalbacher Str. 3-4,12161,Berlin,Fernwärme,9965,824867,838861,831611,782565,644569,89950,76600,85000,79063,83482,212,204,234,207,173,keine
+109,Kita + Beratung Sponholzstraße,Sponholzstr. 15-16,12159,Berlin,Gas,5871,607414,649776,613545,568922,608835,110605,143641,126931,119707,126357,156,169,176,157,163,keine
+110,Neumark-Grundschule,Steinmetzstr. 46-50,10783,Berlin,Gas,7330,600904,684152,670316,692845,696109,98376,85866,92301,92312,93532,150,155,175,168,165,keine
+111,Seniorenfreizeitstätte Stierstraße,Stierstr. 20 a,12159,Berlin,Gas,782,98784,86504,91177,119838,96102,13708,8482,5989,8956,10461,24,19,21,26,22,keine
+112,Dienstgebäude (Amt für Soziales),Strelitzstr. 15-17,12105,Berlin,Gas,4717,319424,341856,373047,341024,289772,81650,34365,1472,71040,69985,91,74,78,94,82,keine
+113,Rathaus Tempelhof,Tempelhofer Damm 165/169,12099,Berlin,Gas,18985,1891467,1896082,2046664,1984321,1806808,505503,479729,495592,444754,463583,550,513,616,557,520,keine
+114,Campus Schöneberger Linse,Tempelhofer Weg 62,10829,Berlin,Gas,8036,935371,939188,794041,859774,781733,90386,74631,76160,83635,79995,209,198,194,196,175,keine
+115,Gustav-Heinemann-Schule,Tirschenreuther Ring 48,12279,Berlin,Gas,3078,146876,267471,290568,313524,327160,128600,67048,54915,70670,106482,78,72,82,88,103,keine
+116,Haus of fun Kinder- und Jugendkub,Tirschenreuther Ring 67,12279,Berlin,Nahwärme,855,0,0,0,0,0,14736,12048,11552,15297,13372,6,4,4,6,6,Wärmeversorgung über Tirschenreuther Ring 69
+117,Marienfelder Schule - Haus 2,Tirschenreuther Ring 69,12279,Berlin,Gas,4789,1399610,1594500,1092005,1216284,1225660,114837,41810,53745,64581,70055,305,306,247,255,251,Wärme-Mitversorgung vom Tirschenreuther Ring 67
+118,Sportanlage Vorarlberger Damm,Vorarlberger Damm 33,12157,Berlin,Ölheizung,1617,338587,282547,277464,349740,366729,68160,32519,66468,65160,36014,117,87,100,120,112,keine
+119,Gustav-Heinemann-Schule,Waldsassener Str. 62,12279,Berlin,Gas,21582,1621306,1491637,1654728,1492563,1481293,249403,239652,214801,217664,208661,399,356,426,371,355,keine
+120,Finow-Grundschule,Welserstr. 16-22,10777,Berlin,Fernwärme,5080,370497,405328,501636,420872,320276,206812,180874,171743,209663,164048,160,148,188,181,137,keine
+121,Büro Gesundheitsamt,Welserstr. 23,10777,Berlin,Gas,1417,103555,93545,118795,101446,119911,24085,16902,17764,27557,21772,29,23,32,30,31,keine
+122,Sportanlage Westphalweg,Westphalweg 10,12109,Berlin,Gas,701,102551,79463,88735,79516,80247,9896,9052,8801,10912,9588,23,18,22,19,19,keine
+123,Grundschule im Taunusviertel,Wiesbadener Str. 20,12309,Berlin,Gas,7103,708997,731635,779549,894670,923117,87500,44700,54000,55066,53437,166,149,182,191,189,keine
+124,Seniorenwohnhaus Winterfeldtstraße,Winterfeldtstr. 30,10781,Berlin,Nahwärme,2128,0,0,0,0,0,10728,11404,11466,10824,10740,4,4,4,4,4,keine
+125,Schätzelberg-Grundschule,Wolfsburger Weg 13-19,12109,Berlin,Ölheizung,4510,585493,594824,717857,587595,546626,82388,64430,61987,82294,89688,188,181,215,190,183,keine
