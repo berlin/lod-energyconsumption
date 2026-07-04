@@ -1,0 +1,64 @@
+{% extends 'berlin.lod.basetheme/base.html.jinja' %}
+
+{% set type_icon = 'building' %}
+
+{% block info_table_header %}
+  <div class="row">
+    <div class="col-lg-6 col-sm-12">
+      <table class="table table-striped align-middle">
+        <tbody>
+{% endblock info_table_header %}
+
+{% block info_table_footer %}
+        </tbody>
+      </table>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      {% set address_query = '''
+        SELECT ?street_address ?postal_code ?locality
+        WHERE {
+          ?resourceUri 
+          vcard:hasAddress/vcard:street-address ?street_address ;
+          vcard:hasAddress/vcard:postal-code ?postal_code ;
+          vcard:hasAddress/vcard:locality ?locality ;
+        }
+      ''' %}
+      {% set results = node | sparql_query(address_query) %}
+      {% if results %}
+        {% for result in results %}
+          <h5>Adresse</h5>
+          <address>
+            {{ result['street_address'] }}<br/>
+            {{ result['postal_code'] }} {{ result['locality'] }}<br/>
+            {{ result['country'] }}
+          </address>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+{% endblock info_table_footer %}
+
+{% block info_table_content %}
+  {{ super() }}
+
+  {% block heating_type %}
+    {% set heating_type = node | rdf_property_any(ENERVOC.hasHeatingType) %}
+    {% if heating_type %}
+      <tr>
+        <td>Art der Wärmeversorgung:</td>
+        <td><a href="{{ heating_type | relative_uri }}">{{ heating_type | title_any(languages=['de'], default=helper.prefix_label(heating_type))}}</a></td>
+      </tr>
+    {% endif %}
+  {% endblock heating_type %}
+
+  {% block floor_area %}
+    {% set floor_area = node | rdf_property_any(ENERVOC.hasFloorArea) %}
+    {% if floor_area %}
+      <tr>
+        <td>Netto-Raumfläche:</td>
+        <td>{{ floor_area }} m<sup>2</sup></td>
+      </tr>
+    {% endif %}
+  {% endblock floor_area %}
+
+{% endblock info_table_content %}
